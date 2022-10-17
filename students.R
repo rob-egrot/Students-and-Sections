@@ -6,7 +6,7 @@ library(loo)
 
 ##### Data preparation
 
-setwd("C:/Users/Rob/Google Drive/Work/data science/Projects/Students")
+setwd("") # set path here as necessary 
 getwd()
 
 data <- read.csv("students_anon.csv", header=TRUE, stringsAsFactors=FALSE)
