@@ -1,4 +1,12 @@
 # Students-and-Sections
-This is an analysis of (anonymised) data from a compulsory 2nd year undergraduate mathematics course. The primary focus is investigating the effect of section numbering on exam performance using classical and Bayesian methods. Files include the raw data, a jupyter notebook and an R file containing the code from the notebook.
+This is a series of analyses of anonymised undergrad exam data taken from first and second year applied math courses (one of each) over 8 and 9 years respectively. The main point of the investigation is to look at the effect, if any, of the naming of the sections (essentially classes) the students were arranged into on their exam performances, but there are also digressions to examine the effects of different teachers and online vs onsite exams. The investigations involve both classical and Bayesian methods, implemented in R and stan. The results are presented in Jupyter notebooks, with raw code also available as .R files. 
 
-Note: Some of the stan code breaks the jupyter kernel, though it runs fine in e.g. Rstudio. To get around this and produce the relevant output in the notebook I saved models in Rstudio then loaded them in the notebook. These saves are too big for github, but you can recreate them using the .R file.
+A third analysis using merged data will also be added soon.
+
+Contents:
+2 Jupyter notebooks, Students.ipynb analyzing the 2nd year data, and Students2.ipynb for the 1st year data (numbers here represent the order I did the anayses, so apologies for potentially confusing numbering).
+
+2 .R files with the same names containing the raw R code.
+
+2 .csv files containing the data.
+
